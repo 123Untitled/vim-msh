@@ -1,15 +1,18 @@
 
-[bass23]
+#[bass23]
 # test
 
-channel: 8,2
+@1/4 # 1/4 is the time signature
+channel: 8 2 # channel is now dynamic
 
 # note-on trigger
-trigger: |1|0|0|1|0|1|0|0
+@1/4
+trigger
+: |x|-|x|-|-|x|-|-
 
 # time between note-on and note-off
-@1/4 gate:
-100% 50 25 100 50 50 25 100 50 25 0xff
+#@1/4
+#gate: 100% 50 25 100 50 50 25 100 50 25 0xff
 
 # note pitch
 @1/8
