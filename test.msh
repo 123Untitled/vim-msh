@@ -1,28 +1,26 @@
 
-#[bass23]
-# test
-
 @1/4 # 1/4 is the time signature
-channel: 8 2 # channel is now dynamic
+channel:
+	8 2 # channel is now dynamic
 
 # note-on trigger
-@1/4
-trigger
-: |x|-|x|-|-|x|-|-
-
-# time between note-on and note-off
 #@1/4
-#gate: 100% 50 25 100 50 50 25 100 50 25 0xff
-
-# note pitch
-@1/8
-note: A#2 23 Gb Bb A Gb G Bb A Gb Bb A 0x7f
-
-# octave
-octave: 1 3 2 3
-
-# velocity (volume of the note)
-velocity: 126 100 127 80
-
-# control change
-cc25: 127 0 127 0
+#trigger
+#: |x|-|x|-|-|x|-|-
+#
+## time between note-on and note-off
+##@1/4
+##gate: 100% 50 25 100 50 50 25 100 50 25 0xff
+#
+## note pitch
+#@1/8
+#note: A#2 23 Gb Bb A Gb G Bb A Gb Bb A 0x7f
+#
+## octave
+#octave: 1 3 2 3
+#
+## velocity (volume of the note)
+#velocity: 126 100 127 80
+#
+## control change
+#cc25: 127 0 127 0
