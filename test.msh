@@ -2,6 +2,7 @@
 @1/4 # 1/4 is the time signature
 channel:
 	8 2 # channel is now dynamic
+channel: 8 & 2 # channel is now dynamic
 
 # note-on trigger
 #@1/4
